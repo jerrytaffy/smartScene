@@ -30,7 +30,7 @@ http://paularmstrong.github.com/swig/
 参数顺序分别是x,y,width,height
 
 ## 温馨提示
-* 针对小屏幕设计时候无法预览整体效果，增加了”手动模式” 。打开此模式后，server将不再对屏幕进行截图，你只需要新增photoshop一个保存action，保存jpg替代server/public/images/scene.jpg 即可。
+* 针对小屏幕设计时候无法预览整体效果，增加了”手动模式” 。打开此模式后，server将不再对屏幕进行截图，你只需要新增photoshop一个保存action，保存jpg替代server/public/images/scene.jpg 即可。此模式兼容windows，也等于让没有liveview的windows设计师得到一个即时预览方法希，望你们喜欢。
 
 本人英文水平不太好，文档暂无英文说明，英文好的朋友可帮忙翻译一下。感谢～
 
