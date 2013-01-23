@@ -17,16 +17,16 @@ http://expressjs.com/
 http://paularmstrong.github.com/swig/
 
 ## 使用步骤
- 1) 使用”terminal”打开 smartscene的server目录 “smartscene/server”
- 2) 运行 node app.js 
- 3) 查看你server的ip
- 4) 打开client目录，用你自己证书编译一个到你iphone上面
- 5) 运行后修改目标链接ip地址
- 6) 按connect即可
+ * 使用”terminal”打开 smartscene的server目录 “smartscene/server”
+ * 运行 node app.js 
+ * 查看你server的ip
+ * 打开client目录，用你自己证书编译一个到你iphone上面
+ * 运行后修改目标链接ip地址
+ * 按connect即可
  
  ## 修改显示区域
- 1) 打开smartscene/server/routes/index.js
- 2) 修改第 40 行 sceneShotAction(536, 446, 1136, 640);
+ * 打开smartscene/server/routes/index.js
+ * 修改第 40 行 sceneShotAction(536, 446, 1136, 640);
 参数顺序分别是x,y,width,height
 
 如需讨论可链接我
