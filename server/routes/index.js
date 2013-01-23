@@ -6,7 +6,6 @@
 
 var template = require('swig');
 var express = require('express');
-var sys = require('sys');
 var exec = require('child_process').exec;
 
 var app = express();
