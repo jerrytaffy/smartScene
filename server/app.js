@@ -28,6 +28,7 @@ app.configure('development', function() {
 });
 
 app.get('/', routes.index);
+app.get('/static', routes.staticIndex);
 app.get('/scene.jpg', routes.scene);
 
 http.createServer(app).listen(app.get('port'), function() {

@@ -11,6 +11,7 @@
 @interface ViewController : UIViewController<UIGestureRecognizerDelegate>{
     IBOutlet UIWebView *contentView;
     IBOutlet UITextField *ipAddressView, *portView;
+    IBOutlet UISwitch *handModeView;
 }
 
 - (IBAction) connectAction:(id)sender;

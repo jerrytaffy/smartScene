@@ -45,7 +45,16 @@
 }
 
 - (IBAction) connectAction:(id)sender{
-    NSString *url = [NSString stringWithFormat:@"http://%@:%@",ipAddressView.text,portView.text];
+    NSString *mode;
+    if (handModeView.on == YES) {
+        // hand mode on
+        mode = @"/static";
+    }else{
+        mode = @"/";
+    }
+    
+    NSString *url = [NSString stringWithFormat:@"http://%@:%@%@",ipAddressView.text,portView.text,mode];
+    NSLog(@"url:%@",url);
     [contentView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
     [contentView setHidden:NO];
     [ipAddressView resignFirstResponder];

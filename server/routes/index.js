@@ -22,10 +22,21 @@ var sceneShotAction = function(_x, _y, _w, _h) {
     exec('screencapture -R' + _x + ',' + _y + ',' + _w + ',' + _h + ' -tjpg ' + saveFileName);
 };
 
+var staticIndex = function(req, res) {
+    var tplData = {};
+    tplData.title = 'Smart Scene';
+    tplData.mode = 'static';
+    tplData.image = '/images/' + fileName;
+    var html = tmpl.render(tplData);
+    console.log('html:' + html);
+    res.send(html);
+};
+
 var index = function(req, res) {
     var tplData = {};
     tplData.title = 'Smart Scene';
-    tplData.imgPath = '/images/' + fileName;
+    tplData.mode = 'normal';
+    tplData.image = '/' + fileName;
     var html = tmpl.render(tplData);
     console.log('html:' + html);
     res.send(html);
@@ -33,7 +44,7 @@ var index = function(req, res) {
 
 var scene = function(_req, _res) {
     console.log('scene shot...');
-    
+
     // 这里设置你需要屏幕截图的区域
     // sceneShotAction(786, 196, 640, 1136);
     sceneShotAction(536, 446, 1136, 640);
@@ -43,4 +54,5 @@ var scene = function(_req, _res) {
 };
 
 exports.index = index;
+exports.staticIndex = staticIndex;
 exports.scene = scene;

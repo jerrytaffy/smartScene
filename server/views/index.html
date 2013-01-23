@@ -12,7 +12,11 @@
     <script type="text/javascript">
     function refresh(){
         var dc = parseInt(new Date().valueOf() / 1000);
-        $("#scene").attr("src", "/scene.jpg?dc="+dc);
+        if('{{ mode }}' === 'static'){
+            $("#scene").attr("src", "/images/scene.jpg?dc="+dc);
+        }else{
+            $("#scene").attr("src", "/scene.jpg?dc="+dc);
+        }
         t = setTimeout('refresh()',1000);
     }
     $(function() {
@@ -23,7 +27,7 @@
 </head>
 <body>
 
-<img id="scene" src="/scene.jpg" />
+<img id="scene" src="{{ image }}" />
 
 </body>
 </html>
