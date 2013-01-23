@@ -24,7 +24,7 @@ http://paularmstrong.github.com/swig/
  * 运行后修改目标链接ip地址
  * 按connect即可
  
- ## 修改显示区域
+## 修改显示区域
  * 打开smartscene/server/routes/index.js
  * 修改第 40 行 sceneShotAction(536, 446, 1136, 640);
 参数顺序分别是x,y,width,height
