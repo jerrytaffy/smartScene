@@ -29,5 +29,7 @@ http://paularmstrong.github.com/swig/
  * 修改第 40 行 sceneShotAction(536, 446, 1136, 640);
 参数顺序分别是x,y,width,height
 
-如需讨论可链接我
+本人英文水平不太好，文档暂无英文说明，英文好的朋友可帮忙翻译一下。感谢～
+
+如需联系我
 mail: jerry@jerry-chan.com
