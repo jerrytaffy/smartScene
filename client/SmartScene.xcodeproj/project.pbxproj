@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C48A01E816AECF9C00E545A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48A01E716AECF9C00E545A2 /* UIKit.framework */; };
+		C48A01EA16AECF9C00E545A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48A01E916AECF9C00E545A2 /* Foundation.framework */; };
+		C48A01EC16AECF9C00E545A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C48A01EB16AECF9C00E545A2 /* CoreGraphics.framework */; };
+		C48A01F216AECF9C00E545A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C48A01F016AECF9C00E545A2 /* InfoPlist.strings */; };
+		C48A01F416AECF9C00E545A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C48A01F316AECF9C00E545A2 /* main.m */; };
+		C48A01F816AECF9C00E545A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C48A01F716AECF9C00E545A2 /* AppDelegate.m */; };
+		C48A01FA16AECF9C00E545A2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C48A01F916AECF9C00E545A2 /* Default.png */; };
+		C48A01FC16AECF9C00E545A2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48A01FB16AECF9C00E545A2 /* Default@2x.png */; };
+		C48A01FE16AECF9C00E545A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C48A01FD16AECF9C00E545A2 /* Default-568h@2x.png */; };
+		C48A020116AECF9C00E545A2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C48A020016AECF9C00E545A2 /* ViewController.m */; };
+		C48A020416AECF9C00E545A2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C48A020216AECF9C00E545A2 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C48A01E316AECF9C00E545A2 /* SmartScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C48A01E716AECF9C00E545A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C48A01E916AECF9C00E545A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C48A01EB16AECF9C00E545A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C48A01EF16AECF9C00E545A2 /* SmartScene-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartScene-Info.plist"; sourceTree = "<group>"; };
+		C48A01F116AECF9C00E545A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C48A01F316AECF9C00E545A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C48A01F516AECF9C00E545A2 /* SmartScene-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartScene-Prefix.pch"; sourceTree = "<group>"; };
+		C48A01F616AECF9C00E545A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C48A01F716AECF9C00E545A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C48A01F916AECF9C00E545A2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C48A01FB16AECF9C00E545A2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C48A01FD16AECF9C00E545A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C48A01FF16AECF9C00E545A2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C48A020016AECF9C00E545A2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C48A020316AECF9C00E545A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C48A01E016AECF9C00E545A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48A01E816AECF9C00E545A2 /* UIKit.framework in Frameworks */,
+				C48A01EA16AECF9C00E545A2 /* Foundation.framework in Frameworks */,
+				C48A01EC16AECF9C00E545A2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C48A01D816AECF9C00E545A2 = {
+			isa = PBXGroup;
+			children = (
+				C48A01ED16AECF9C00E545A2 /* SmartScene */,
+				C48A01E616AECF9C00E545A2 /* Frameworks */,
+				C48A01E416AECF9C00E545A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C48A01E416AECF9C00E545A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C48A01E316AECF9C00E545A2 /* SmartScene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C48A01E616AECF9C00E545A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C48A01E716AECF9C00E545A2 /* UIKit.framework */,
+				C48A01E916AECF9C00E545A2 /* Foundation.framework */,
+				C48A01EB16AECF9C00E545A2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C48A01ED16AECF9C00E545A2 /* SmartScene */ = {
+			isa = PBXGroup;
+			children = (
+				C48A01F616AECF9C00E545A2 /* AppDelegate.h */,
+				C48A01F716AECF9C00E545A2 /* AppDelegate.m */,
+				C48A01FF16AECF9C00E545A2 /* ViewController.h */,
+				C48A020016AECF9C00E545A2 /* ViewController.m */,
+				C48A020216AECF9C00E545A2 /* ViewController.xib */,
+				C48A01EE16AECF9C00E545A2 /* Supporting Files */,
+			);
+			path = SmartScene;
+			sourceTree = "<group>";
+		};
+		C48A01EE16AECF9C00E545A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C48A01EF16AECF9C00E545A2 /* SmartScene-Info.plist */,
+				C48A01F016AECF9C00E545A2 /* InfoPlist.strings */,
+				C48A01F316AECF9C00E545A2 /* main.m */,
+				C48A01F516AECF9C00E545A2 /* SmartScene-Prefix.pch */,
+				C48A01F916AECF9C00E545A2 /* Default.png */,
+				C48A01FB16AECF9C00E545A2 /* Default@2x.png */,
+				C48A01FD16AECF9C00E545A2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C48A01E216AECF9C00E545A2 /* SmartScene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C48A020716AECF9C00E545A2 /* Build configuration list for PBXNativeTarget "SmartScene" */;
+			buildPhases = (
+				C48A01DF16AECF9C00E545A2 /* Sources */,
+				C48A01E016AECF9C00E545A2 /* Frameworks */,
+				C48A01E116AECF9C00E545A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartScene;
+			productName = SmartScene;
+			productReference = C48A01E316AECF9C00E545A2 /* SmartScene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C48A01DA16AECF9C00E545A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Chan Jerry";
+			};
+			buildConfigurationList = C48A01DD16AECF9C00E545A2 /* Build configuration list for PBXProject "SmartScene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C48A01D816AECF9C00E545A2;
+			productRefGroup = C48A01E416AECF9C00E545A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C48A01E216AECF9C00E545A2 /* SmartScene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C48A01E116AECF9C00E545A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48A01F216AECF9C00E545A2 /* InfoPlist.strings in Resources */,
+				C48A01FA16AECF9C00E545A2 /* Default.png in Resources */,
+				C48A01FC16AECF9C00E545A2 /* Default@2x.png in Resources */,
+				C48A01FE16AECF9C00E545A2 /* Default-568h@2x.png in Resources */,
+				C48A020416AECF9C00E545A2 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C48A01DF16AECF9C00E545A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C48A01F416AECF9C00E545A2 /* main.m in Sources */,
+				C48A01F816AECF9C00E545A2 /* AppDelegate.m in Sources */,
+				C48A020116AECF9C00E545A2 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C48A01F016AECF9C00E545A2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48A01F116AECF9C00E545A2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C48A020216AECF9C00E545A2 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C48A020316AECF9C00E545A2 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C48A020516AECF9C00E545A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C48A020616AECF9C00E545A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C48A020816AECF9C00E545A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jerry Chan (HPL8CW8EV7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jerry Chan (HPL8CW8EV7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartScene/SmartScene-Prefix.pch";
+				INFOPLIST_FILE = "SmartScene/SmartScene-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0D6811B2-DE53-420C-AAC7-536B48C34C05";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0D6811B2-DE53-420C-AAC7-536B48C34C05";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C48A020916AECF9C00E545A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartScene/SmartScene-Prefix.pch";
+				INFOPLIST_FILE = "SmartScene/SmartScene-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C48A01DD16AECF9C00E545A2 /* Build configuration list for PBXProject "SmartScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48A020516AECF9C00E545A2 /* Debug */,
+				C48A020616AECF9C00E545A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C48A020716AECF9C00E545A2 /* Build configuration list for PBXNativeTarget "SmartScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C48A020816AECF9C00E545A2 /* Debug */,
+				C48A020916AECF9C00E545A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C48A01DA16AECF9C00E545A2 /* Project object */;
+}

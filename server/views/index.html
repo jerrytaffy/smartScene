@@ -1,0 +1,29 @@
+<html>
+
+<head>
+    <title>{{ title }}</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=0.5, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="YES">
+    <script src="/javascripts/jquery-1.6.2.min.js" type="text/javascript" charset="utf-8"></script>
+
+    <link href="/stylesheets/style.css" rel="stylesheet">
+
+    <script type="text/javascript">
+    function refresh(){
+        var dc = parseInt(new Date().valueOf() / 1000);
+        $("#scene").attr("src", "/scene.jpg?dc="+dc);
+        t = setTimeout('refresh()',1000);
+    }
+    $(function() {
+        refresh();
+    });
+    </script>
+
+</head>
+<body>
+
+<img id="scene" src="/scene.jpg" />
+
+</body>
+</html>
