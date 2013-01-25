@@ -40,6 +40,9 @@ mail: jerry@jerry-chan.com
 
 ## 更新日志
 
+* 2013.01.25
+> 增加了PhotoShop Action文件，假如你的SmartScene路径跟我一致“/srv/SmartScene/server/app.js” 那么你不需修改就可以直接使用了。巧用PhotoShop的Action和手动模式，有助于你在小屏幕的设计。
+
 * 2013.01.23
 
-		SmartScene针对小屏幕设计时候无法预览整体效果，增加了”手动模式”。不但解决了小屏幕设计iPhone5和iPad3+的苦恼，还解决windows没有liveview的短板。嗯，对的。这个模式是支持Windows的。希望各位设计狮可以喜欢～～ 
+> SmartScene针对小屏幕设计时候无法预览整体效果，增加了”手动模式”。不但解决了小屏幕设计iPhone5和iPad3+的苦恼，还解决windows没有liveview的短板。嗯，对的。这个模式是支持Windows的。希望各位设计狮可以喜欢～～ 
