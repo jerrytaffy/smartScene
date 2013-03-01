@@ -10,6 +10,19 @@
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIdentifier</key>
 	<string>me.iTaffy.${PRODUCT_NAME:rfc1034identifier}</string>
+	<key>CFBundleIcons</key>
+	<dict>
+		<key>CFBundlePrimaryIcon</key>
+		<dict>
+			<key>UIPrerenderedIcon</key>
+			<true/>
+			<key>CFBundleIconFiles</key>
+			<array>
+				<string>icon.png</string>
+				<string>icon@2x.png</string>
+			</array>
+		</dict>
+	</dict>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -35,6 +48,9 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 </dict>
 </plist>

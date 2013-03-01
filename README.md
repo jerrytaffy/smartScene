@@ -40,6 +40,10 @@ mail: jerry@jerry-chan.com
 
 ## 更新日志
 
+* 2013.03.01
+> 增加ios客户端icon
+> 停止运行时自动锁机
+
 * 2013.01.25
 > 增加了PhotoShop Action文件，假如你的SmartScene路径跟我一致“/srv/SmartScene/server/app.js” 那么你不需修改就可以直接使用了。巧用PhotoShop的Action和手动模式，有助于你在小屏幕的设计。
 

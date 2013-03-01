@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCFC095F16C1148D00121E96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCFC095E16C1148D00121E96 /* Cocoa.framework */; };
+		CCFC096916C1148D00121E96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCFC096716C1148D00121E96 /* InfoPlist.strings */; };
+		CCFC096B16C1148D00121E96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFC096A16C1148D00121E96 /* main.m */; };
+		CCFC096F16C1148D00121E96 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CCFC096D16C1148D00121E96 /* Credits.rtf */; };
+		CCFC097216C1148D00121E96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCFC097116C1148D00121E96 /* AppDelegate.m */; };
+		CCFC097516C1148D00121E96 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCFC097316C1148D00121E96 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCFC095B16C1148D00121E96 /* SmartScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCFC095E16C1148D00121E96 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CCFC096116C1148D00121E96 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CCFC096216C1148D00121E96 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CCFC096316C1148D00121E96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCFC096616C1148D00121E96 /* SmartScene-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartScene-Info.plist"; sourceTree = "<group>"; };
+		CCFC096816C1148D00121E96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCFC096A16C1148D00121E96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCFC096C16C1148D00121E96 /* SmartScene-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartScene-Prefix.pch"; sourceTree = "<group>"; };
+		CCFC096E16C1148D00121E96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CCFC097016C1148D00121E96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCFC097116C1148D00121E96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCFC097416C1148D00121E96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCFC095816C1148D00121E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFC095F16C1148D00121E96 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCFC095216C1148D00121E96 = {
+			isa = PBXGroup;
+			children = (
+				CCFC096416C1148D00121E96 /* SmartScene */,
+				CCFC095D16C1148D00121E96 /* Frameworks */,
+				CCFC095C16C1148D00121E96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCFC095C16C1148D00121E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCFC095B16C1148D00121E96 /* SmartScene.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCFC095D16C1148D00121E96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCFC095E16C1148D00121E96 /* Cocoa.framework */,
+				CCFC096016C1148D00121E96 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCFC096016C1148D00121E96 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCFC096116C1148D00121E96 /* AppKit.framework */,
+				CCFC096216C1148D00121E96 /* CoreData.framework */,
+				CCFC096316C1148D00121E96 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CCFC096416C1148D00121E96 /* SmartScene */ = {
+			isa = PBXGroup;
+			children = (
+				CCFC097016C1148D00121E96 /* AppDelegate.h */,
+				CCFC097116C1148D00121E96 /* AppDelegate.m */,
+				CCFC097316C1148D00121E96 /* MainMenu.xib */,
+				CCFC096516C1148D00121E96 /* Supporting Files */,
+			);
+			path = SmartScene;
+			sourceTree = "<group>";
+		};
+		CCFC096516C1148D00121E96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCFC096616C1148D00121E96 /* SmartScene-Info.plist */,
+				CCFC096716C1148D00121E96 /* InfoPlist.strings */,
+				CCFC096A16C1148D00121E96 /* main.m */,
+				CCFC096C16C1148D00121E96 /* SmartScene-Prefix.pch */,
+				CCFC096D16C1148D00121E96 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCFC095A16C1148D00121E96 /* SmartScene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFC097816C1148D00121E96 /* Build configuration list for PBXNativeTarget "SmartScene" */;
+			buildPhases = (
+				CCFC095716C1148D00121E96 /* Sources */,
+				CCFC095816C1148D00121E96 /* Frameworks */,
+				CCFC095916C1148D00121E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartScene;
+			productName = SmartScene;
+			productReference = CCFC095B16C1148D00121E96 /* SmartScene.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCFC095316C1148D00121E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = JerryChan;
+			};
+			buildConfigurationList = CCFC095616C1148D00121E96 /* Build configuration list for PBXProject "SmartScene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCFC095216C1148D00121E96;
+			productRefGroup = CCFC095C16C1148D00121E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCFC095A16C1148D00121E96 /* SmartScene */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCFC095916C1148D00121E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFC096916C1148D00121E96 /* InfoPlist.strings in Resources */,
+				CCFC096F16C1148D00121E96 /* Credits.rtf in Resources */,
+				CCFC097516C1148D00121E96 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCFC095716C1148D00121E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCFC096B16C1148D00121E96 /* main.m in Sources */,
+				CCFC097216C1148D00121E96 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCFC096716C1148D00121E96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFC096816C1148D00121E96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CCFC096D16C1148D00121E96 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFC096E16C1148D00121E96 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CCFC097316C1148D00121E96 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCFC097416C1148D00121E96 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCFC097616C1148D00121E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CCFC097716C1148D00121E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CCFC097916C1148D00121E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartScene/SmartScene-Prefix.pch";
+				INFOPLIST_FILE = "SmartScene/SmartScene-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCFC097A16C1148D00121E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartScene/SmartScene-Prefix.pch";
+				INFOPLIST_FILE = "SmartScene/SmartScene-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCFC095616C1148D00121E96 /* Build configuration list for PBXProject "SmartScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFC097616C1148D00121E96 /* Debug */,
+				CCFC097716C1148D00121E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFC097816C1148D00121E96 /* Build configuration list for PBXNativeTarget "SmartScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCFC097916C1148D00121E96 /* Debug */,
+				CCFC097A16C1148D00121E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCFC095316C1148D00121E96 /* Project object */;
+}
