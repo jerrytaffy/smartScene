@@ -17,6 +17,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
 	// Do any additional setup after loading the view, typically from a nib.
     UIPinchGestureRecognizer *pinchRecognizer = [[UIPinchGestureRecognizer alloc]                                    
                                                  initWithTarget:self action:@selector(scale:)];
@@ -27,6 +28,17 @@
 
 - (void) viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
+    
+    isHidden = NO;
+    if ([self respondsToSelector:@selector(setNeedsStatusBarAppearanceUpdate)])
+    {
+        [[UIApplication sharedApplication] setStatusBarHidden:isHidden];
+        [self prefersStatusBarHidden];
+        [self performSelector:@selector(setNeedsStatusBarAppearanceUpdate)];
+    }else{
+        [[UIApplication sharedApplication] setStatusBarHidden:isHidden withAnimation:UIStatusBarAnimationSlide];
+    }
+    
     [contentView setHidden:YES];
 }
 
@@ -55,10 +67,15 @@
     
     NSString *url = [NSString stringWithFormat:@"http://%@:%@%@",ipAddressView.text,portView.text,mode];
     NSLog(@"url:%@",url);
+    contentView.delegate = self;
     [contentView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:url]]];
     [contentView setHidden:NO];
     [ipAddressView resignFirstResponder];
     [portView resignFirstResponder];
+}
+
+- (IBAction) statusAction:(id)sender{
+    [self performSelector:@selector(setNeedsStatusBarAppearanceUpdate)];
 }
 
 - (void) viewWillDisappear:(BOOL)animated{
@@ -77,5 +94,39 @@
         }
     }
 }
+
+- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType{
+    return YES;
+}
+
+- (void)webViewDidStartLoad:(UIWebView *)webView{
+    NSLog(@"webViewDidStartLoad######");
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView{
+    NSLog(@"webViewDidFinishLoad######");
+}
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error{
+    NSLog(@"didFailLoadWithError######%@",error);
+}
+
+#pragma mark -
+#pragma mark IOS7
+
+- (BOOL) prefersStatusBarHidden
+{
+    return isHidden;
+}
+
+- (UIStatusBarStyle) preferredStatusBarStyle{
+    if (statusBarView.isOn) {
+        return UIStatusBarStyleDefault;
+    }else{
+        return UIStatusBarStyleLightContent;
+    }
+    
+}
+
 
 @end

@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController<UIGestureRecognizerDelegate>{
+@interface ViewController : UIViewController<UIGestureRecognizerDelegate, UIWebViewDelegate>{
     IBOutlet UIWebView *contentView;
     IBOutlet UITextField *ipAddressView, *portView;
-    IBOutlet UISwitch *handModeView;
+    IBOutlet UISwitch *handModeView, *statusBarView;
+    BOOL isHidden;
 }
 
 - (IBAction) connectAction:(id)sender;
+- (IBAction) statusAction:(id)sender;
 
 @end
